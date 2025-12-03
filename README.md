@@ -1,10 +1,37 @@
-# Pasos para correr el programa
+#  Maestria de Software UPS
 
-1 - Se debe instalar ANDROID STUDIO para su sistema operativo: "https://developer.android.com/studio?hl=es-419"
-2 - En el IDE de trabajo se debe poner en modo SIMULADOR APP MOVIL, por ejemplo en visual estudio code se debe: 
-    Presionar las teclas: "Control + Shift + P", 
-    luego dar en "Flutter: Select Device"
-    y luego escoger "Start Medium Phone API 36.1"
-3 - Luego, en el terminal, ubicado en el path cualquier archivo .dart, por ejemplo /lib/main.dart, se debe dar F5 (En visual estudio code)
-4 - Si docker esta corriendo con el resto de contenedores del proyecto, ya deberia verse funcional.
-5 - Para ingresar del login, solo dar click en "Ingresar", no es necesaria ninguna contraseña ya que es una prueba de concepto.
+## 🛠️ Requisitos Previos para correr el programa
+
+Se debe tener instalado previamente::
+
+### 1. Android Studio
+Necesario para las herramientas de compilación y emuladores.
+- [Descargar Android Studio aquí](https://developer.android.com/studio?hl=es-419)
+
+### 2. Docker 🐳
+El mismo que debe tener ya corriendo a los contenedores del DOCKER COMPOSE del otro repositorio de este proyecto: https://github.com/mrengelspb/msoft-tesis-monorepo
+
+---
+
+## PASOS para VS CodeVS Code
+
+
+### Paso 1: Iniciar el Emulador
+Dentro de Visual Studio Code:
+
+1.  Presionar las teclas: `Control` + `Shift` + `P`.
+2.  Seleccionar: **"Flutter: Select Device"**.
+3.  Escoger el dispositivo: **"Start Medium Phone API 36.1"**.
+
+### Paso 2: Ejecutar la App
+1.  Abre cualquier archivo `.dart` en tu editor (por ejemplo: `/lib/main.dart`).
+2.  Presiona la tecla `F5` para iniciar la emulacion.
+
+
+### Ingreso a la APP
+
+Click en **"Ingresar"**, no se necesita credenciales ya que es una prueba de concepto.
+
+---
+
+Realizado por: Mateo Rengel Rivera.
