@@ -1,16 +1,10 @@
-# mqttapp
+# Pasos para correr el programa
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1 - Se debe instalar ANDROID STUDIO para su sistema operativo: "https://developer.android.com/studio?hl=es-419"
+2 - En el IDE de trabajo se debe poner en modo SIMULADOR APP MOVIL, por ejemplo en visual estudio code se debe: 
+    Presionar las teclas: "Control + Shift + P", 
+    luego dar en "Flutter: Select Device"
+    y luego escoger "Start Medium Phone API 36.1"
+3 - Luego, en el terminal, ubicado en el path cualquier archivo .dart, por ejemplo /lib/main.dart, se debe dar F5 (En visual estudio code)
+4 - Si docker esta corriendo con el resto de contenedores del proyecto, ya deberia verse funcional.
+5 - Para ingresar del login, solo dar click en "Ingresar", no es necesaria ninguna contraseña ya que es una prueba de concepto.
