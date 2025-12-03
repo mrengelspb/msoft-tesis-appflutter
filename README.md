@@ -1,6 +1,6 @@
 #  Maestria de Software UPS
 
-## 🛠️ Requisitos Previos para correr el programa
+## Requisitos Previos para correr el programa
 
 Se debe tener instalado previamente::
 
@@ -8,12 +8,12 @@ Se debe tener instalado previamente::
 Necesario para las herramientas de compilación y emuladores.
 - [Descargar Android Studio aquí](https://developer.android.com/studio?hl=es-419)
 
-### 2. Docker 🐳
+### 2. Docker 
 El mismo que debe tener ya corriendo a los contenedores del DOCKER COMPOSE del otro repositorio de este proyecto: https://github.com/mrengelspb/msoft-tesis-monorepo
 
 ---
 
-## PASOS para VS CodeVS Code
+## PASOS para VS Code
 
 
 ### Paso 1: Iniciar el Emulador
